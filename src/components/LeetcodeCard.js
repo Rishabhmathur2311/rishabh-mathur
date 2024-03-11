@@ -4,7 +4,16 @@ import {SectionWrapper} from "../hoc";
 
 const Leetcode=()=>{
     const api="https://leetcodestats.cyclic.app/Rishabh_Mathur";
-    const [info, setInfo]=useState({});
+    const [info, setInfo]=useState({
+        hardSolved: 93,
+        mediumSolved: 399,
+        easySolved: 234,
+        totalHard: 683,
+        totalMedium: 1614,
+        totalEasy: 780,
+        totalSolved: 726,
+        totalQuestions: 3077,
+    });
 
     const getData=async(url)=>{
         const res=await axios.get(url);
