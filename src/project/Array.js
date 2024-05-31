@@ -11,6 +11,7 @@ import {
     redux,
     tailwind,
     nodejs,
+    openCV
     mongodb,
     git,
     figma,
@@ -148,34 +149,70 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const proj = [
+    {
+      name: "Flat Finder",
+      description:
+        "Implemented signup and login functionality separate for owner and buyer. owners can provide details of the flat. The details are mapped in the form of cards. Owners and Buyers can engage in one-on-one chat.",
+      tags: [
+        {
+          name: reactjs,
+          color: "#943712",
+        },
+        {
+          name: mongodb,
+          color: "green-text-gradient",
+        },
+        {
+          name: nodejs,
+          color: "pink-text-gradient",
+        },
+      ],
+      video: "../videos/flatFinder.mp4",
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Virtual Presentation",
+      description:
+        "Implemented using OpenCV and mediapipeImplemented hand gesture functions such as findHands(), findPosition() and fingersUp().The project visualizes which finger is up and based on that actions such as next slide, previous slide,virtual pointer, lines and eraser are applied.",
+      tags: [
+        {
+          name: openCV,
+          color: "#943712",
+        },
+        {
+          name: mongodb,
+          color: "green-text-gradient",
+        },
+        {
+          name: nodejs,
+          color: "pink-text-gradient",
+        },
+      ],
+      video: "../videos/flatFinder.mp4",
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Flat Finder",
+      description:
+        "Implemented signup and login functionality separate for owner and buyer. owners can provide details of the flat. The details are mapped in the form of cards. Owners and Buyers can engage in one-on-one chat.",
+      tags: [
+        {
+          name: reactjs,
+          color: "#943712",
+        },
+        {
+          name: mongodb,
+          color: "green-text-gradient",
+        },
+        {
+          name: nodejs,
+          color: "pink-text-gradient",
+        },
+      ],
+      video: "../videos/flatFinder.mp4",
+      source_code_link: "https://github.com/",
+    },
     {
       name: "Flat Finder",
       description:

@@ -97,6 +97,9 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
+  {
+    
+  }
 ];
 
 const experiences = [
